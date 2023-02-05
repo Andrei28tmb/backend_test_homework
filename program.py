@@ -13,7 +13,7 @@ def tricky_func(self):
     ...
 
 
-classTest:
+class Test:
     """Класс Test используется для демонстрации docstring."""
 
     def first(self):
