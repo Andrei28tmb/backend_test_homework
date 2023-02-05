@@ -13,7 +13,7 @@ def tricky_func(self):
     ...
 
 
-class Test:
+classTest:
     """Класс Test используется для демонстрации docstring."""
 
     def first(self):
@@ -24,6 +24,6 @@ class Test:
 
 
 print('Без применения cleandoc:')
-print(Test.first.__doc__) 
+print(Test.first.__doc__)
 print('С применением cleandoc:')
 print(Test.first.__doc__)  # Выведите докстринг, используя метод cleandoc().
